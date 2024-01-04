@@ -41,7 +41,31 @@ const styles = {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            gap:'20px'
+            gap:'20px',
+            "&>.controls":{
+                fontSize:"0.5em",
+                textAlign:'left',
+                flexGrow:"1",
+                display: 'flex',
+                alignItems: 'flex-end',
+                "&>table":{
+                    "&>tbody":{
+                        paddingTop:"10px",
+                        "& td":{
+                            "&:first-child":{
+                                backgroundColor:"#fff",
+                                color:"#282c34",
+                                borderRadius:"2px",
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                width:"15px",
+                                height:"15px",
+                            }
+                        }
+                    }
+                }
+            }
         }
     },
     container:{

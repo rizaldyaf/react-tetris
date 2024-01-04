@@ -489,6 +489,37 @@ class Main extends Component {
                     </div>
                 </div>
                 <button onClick={()=>this.resetGame()}>Reset Game</button>
+                <div className="controls">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colSpan={2}>Controls</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>W</td>
+                                <td>Rotate</td>
+                            </tr>
+                            <tr>
+                                <td>A</td>
+                                <td>Move Left</td>
+                            </tr>
+                            <tr>
+                                <td>S</td>
+                                <td>Push Down</td>
+                            </tr>
+                            <tr>
+                                <td>D</td>
+                                <td>Move Right</td>
+                            </tr>
+                            <tr>
+                                <td>P</td>
+                                <td>Pause / Play</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
             
             
